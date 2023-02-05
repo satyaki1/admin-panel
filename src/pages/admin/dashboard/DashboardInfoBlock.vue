@@ -45,25 +45,6 @@
     </div>
 
     <div class="flex xs12 sm6 md6 xl3 lg3">
-      <va-card stripe stripe-color="info">
-        <va-card-title>
-          {{ t('dashboard.info.componentRichTheme') }}
-        </va-card-title>
-        <va-card-content>
-          <p class="rich-theme-card-text">
-            Buying the right telescope to take your love of astronomy to the next level is a big next step.
-          </p>
-
-          <div class="mt-3">
-            <va-button color="primary" target="_blank" href="https://github.com/epicmaxco/vuestic-ui">
-              {{ t('dashboard.info.viewLibrary') }}
-            </va-button>
-          </div>
-        </va-card-content>
-      </va-card>
-    </div>
-
-    <div class="flex xs12 sm6 md6 xl3 lg3">
       <va-card>
         <va-image :src="images[currentImageIndex]" style="height: 200px" />
         <va-card-title>

@@ -6,8 +6,6 @@
 
 <p align="center">
   Free and beautiful Vue.js admin template with 44+ custom UI components.</br>
-  Developed by  <a href="https://epicmax.co">Epicmax</a>.
-  Designed by <a href="#">Vasili Savitski</a>
 <br>
 Based on <a href="https://github.com/epicmaxco/vuestic-ui">Vuestic UI</a> library.
 </p>
@@ -153,6 +151,7 @@ contribution guides</a>
 and [discord server](https://discord.gg/jTKTjj2weV)
 
 ### Partners & Sponsors ❤️
+
 <div>
   <a href="https://vuejs.org/partners/epicmax.html" target="_blank" title="VueJS - The Progressive JavaScript Framework">
     <picture>

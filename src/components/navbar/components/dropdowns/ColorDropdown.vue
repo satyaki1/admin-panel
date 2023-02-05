@@ -14,22 +14,12 @@
         grow
         size="small"
       />
-
-      <table style="width: 100%">
-        <color-dropdown-item
-          v-for="colorName in colorNames"
-          :key="colorName"
-          class="color-picker-dropdown"
-          :color-name="colorName"
-        />
-      </table>
     </va-dropdown-content>
   </va-dropdown>
 </template>
 
 <script setup lang="ts">
   import VaIconColor from '../../../icons/VaIconColor.vue'
-  import ColorDropdownItem from './ColorDropdownItem.vue'
   import { useColors } from 'vuestic-ui'
   import { ref, watchEffect } from 'vue'
 

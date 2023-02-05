@@ -4,7 +4,7 @@ export const useGlobalStore = defineStore('global', {
   state: () => {
     return {
       isSidebarMinimized: false,
-      userName: 'Vasili S',
+      userName: 'Debanjan',
     }
   },
 

@@ -66,7 +66,7 @@
       notifications: () => [
         {
           name: 'sentMessage',
-          details: { name: 'Vasily S', avatar: 'https://picsum.photos/123' },
+          details: { name: 'Debanjan', avatar: 'https://picsum.photos/123' },
           unread: true,
           id: 1,
         },

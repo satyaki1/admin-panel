@@ -67,6 +67,8 @@
     passwordErrors.value = password.value ? [] : ['Password is required']
     agreedToTermsErrors.value = agreedToTerms.value ? [] : ['You must agree to the terms of use to continue']
 
-    useRouter().push({ name: 'dashboard' })
+    if (emailErrors.value.length === 0 && passwordErrors.value.length === 0 && agreedToTermsErrors.value.length === 0) {
+      useRouter().push({ name: 'dashboard' })
+    }
   }
 </script>

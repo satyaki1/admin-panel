@@ -52,6 +52,8 @@
     emailErrors.value = email.value ? [] : ['Email is required']
     passwordErrors.value = password.value ? [] : ['Password is required']
 
-    router.push({ name: 'dashboard' })
+    if (emailErrors.value.length === 0 && passwordErrors.value.length === 0) {
+      router.push({ name: 'dashboard' })
+    }
   }
 </script>

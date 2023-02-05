@@ -6,9 +6,6 @@
     <va-card-content>
       <va-tabs v-model="activeTabName" grow>
         <template #tabs>
-          <va-tab name="OverviewTab">
-            {{ t('dashboard.tabs.overview.title') }}
-          </va-tab>
           <va-tab name="BillingAddressTab">
             {{ t('dashboard.tabs.billingAddress.title') }}
           </va-tab>
@@ -30,7 +27,6 @@
   const { t } = useI18n()
 
   const tabs = {
-    OverviewTab: defineAsyncComponent(() => import('./dashboard-tabs/OverviewTab.vue')),
     BillingAddressTab: defineAsyncComponent(() => import('./dashboard-tabs/BillingAddressTab.vue')),
     BankDetailsTab: defineAsyncComponent(() => import('./dashboard-tabs/BankDetailsTab.vue')),
   }
